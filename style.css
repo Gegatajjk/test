@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color:  #89CFF0
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+  
+  
+  
+
+li, a, button {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 5px 10%;
+}
+
+.logo{
+  cursor: pointer;
+  margin-right: auto;
+}
+
+.navigation{
+  list-style: none;
+}
+
+.navigation li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.navigation li a {
+  transition: all 0.3s ease 0s;
+}
+
+.navigation li a:hover {
+  color: cyan;
+}
+button {
+  padding: 9px 25px;
+  background-color: rgba(0,136,169,1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: rgba(0,136,169,0);
+}
+ header, ul, li, a, .logo, h1 {
+   background-color: black;
+ }
+ h1, p{
+   margin-right: auto;
+   margin-left: auto;
+   color: white;
+   font-family: "Oswald";
+   cursor: pointer;
+ }
+ h1:hover{
+   color: cyan;
+ }
+ p {
+   width: 50%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 20px;
+   cursor: auto;
+   text-align: center; 
+ }
+button:active, li:active, a:active {
+     transform: scale(0.99);
+ }
+button:focus{
+  outline: none;
+}
+
+h1 {
+  transition: color 0.5s ease 0s;
+}
+table,tr,th,td
+{
+  border:solid 1px black ;
+  border-collapse: collapse;
+}
+table{
+  text-align:center;
+ 
+  margin-left: auto;
+  margin-right: auto;
+  
+
+}
+.image_index{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.index_about{
+  cursor: pointer;
+}
+.index_about:hover{
+  color: gray;
+}
+.link{
+ width: 800px; height:600px;
+ display: block;
+ margin-left: auto ;
+ margin-right: auto;
+}
+h2{text-align: center;
+color:black ;
+size:12px;
+font-family:"Calibri" ;
+}
+
+
+li{
+  text-align:center;
+}
